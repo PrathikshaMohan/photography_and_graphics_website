@@ -1,76 +1,101 @@
 <!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>Contact us</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="style1.css" />
-    <link rel="icon" href="images/Images/wa-high-resolution-logo-white-transparent (1).png" typeof="image/x-icon">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style1.css" />
+  <link rel="icon" href="images/Images/wa-high-resolution-logo-white-transparent (1).png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://kit.fontawesome.com/ae61999827.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="header">
-        <img src="images/Images/wa-high-resolution-logo-black-transparent (2).png" class="logo" />
-        <nav class="nav-items">
-            <a href="index.html">Home</a>
-            <a href="collection.html">Collections</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-    <section class="contact">
-        <div class="Container">
-            <h2>Contact Us</h2>
-            <div class="contact-wrapper">
-                <div class="contact-form">
-                    <h3>Send Us A Message</h3>
-                    
 
-                        <div class="form-group">
-                            <input type="text" name="name" placeholder="Your Name" />
-                        </div>
-                        <div class="form-group">
-                            <input type="text" name="email" placeholder="Your Email" />
-                        </div>
+  <header class="header">
+    <img src="images/Images/wa-high-resolution-logo-black-transparent (2).png" class="logo" />
+    <nav class="nav-items" id="nav-items">
+      <a href="index.html">Home</a>
+      <a href="collection.html">Collections</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+  </header>
 
-                        <div class="form-group">
-                            <textarea name="message" placeholder="Your Message"></textarea>
-                        </div>
-                        <button type="submit">Send Message</button>
-                   
-                </div>
-                <div class="contact-info">
-                    <h3>Contact Information</h3>
-                    <i class="fa fa-map-marker" aria-hidden="true"></i><p> Robert Robertson, 1234 NW Bobcat Lane, Kandy.</p>
-                    <i class="fa fa-envelope" aria-hidden="true"></i><p>whiteart@gmail.com</p>
-                    <i class="fa fa-phone" aria-hidden="true"></i><p>+94 123456789</p>
-                </div>
+  <section class="contact-section">
+    <div class="contact-container">
+      <h2>Contact Us</h2>
+      <div class="contact-wrapper">
+        <div class="contact-form">
+          <h3>Send Us A Message</h3>
+          <form>
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" required />
             </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Your Email" required />
+            </div>
+            <div class="form-group">
+              <textarea name="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
         </div>
-    </section>
-    <footer class="footer">
-        <div class="copy">&copy; White Art 2023</div>
-        <div class="bottom-links">
-            <div class="links">
-                <span>More Info</span>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
-            </div>
-            <div class="social-icon">
-                <span>Social Links</span>
-                <ul>
-
-                    <li><a href=""><i class="fab fa-facebook"></i></a></li>
-                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                    <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
-                </ul>
-
-
-
-            </div>
-            <script src="https://kit.fontawesome.com/ae61999827.js" crossorigin="anonymous"></script>
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p><i class="fa fa-map-marker" aria-hidden="true"></i> Robert Robertson, 1234 NW Bobcat Lane, Kandy</p>
+          <p><i class="fa fa-envelope" aria-hidden="true"></i> whiteart@gmail.com</p>
+          <p><i class="fa fa-phone" aria-hidden="true"></i> +94 123456789</p>
         </div>
-    </footer>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-modern">
+  <div class="footer-container">
+    <div class="footer-column brand">
+      <h2>White Art</h2>
+      <p>Where creativity meets quality. Let's create something beautiful together.</p>
+    </div>
+
+    <div class="footer-column">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html"> Home</a></li>
+        <li><a href="collection.html"> Collections</a></li>
+        <li><a href="about.html"> About</a></li>
+        <li><a href="contact.html"> Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>Contact</h3>
+      <p><i class="fa fa-map-marker"></i> Kandy, Sri Lanka</p>
+      <p><i class="fa fa-envelope"></i> whiteart@gmail.com</p>
+      <p><i class="fa fa-phone"></i> +94 123456789</p>
+    </div>
+
+    <div class="footer-column">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2023 White Art. All rights reserved.
+  </div>
+</footer>
+
+  <script>
+    document.getElementById("menu-toggle").addEventListener("click", () => {
+      document.getElementById("nav-items").classList.toggle("active");
+    });
+  </script>
+
 </body>
 </html>
